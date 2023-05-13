@@ -1,0 +1,173 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  background-color: #1d2440;
+  background-repeat: repeat;
+  background-size: 1920px 1080px;
+  
+  
+  }
+  
+  
+  nav {
+  background: linear-gradient(#0e0b29, #1a1b1c, #001f21); /* define a cor de fundo da navbar */
+   
+}
+
+ ul {
+  list-style-type: none; /* remove os marcadores da lista */
+  margin: 0; /* remove a margem padrão da lista */
+  padding: 0; /* remove o preenchimento padrão da lista */
+  overflow: hidden; /* esconde itens da lista que não cabem na navbar */
+ 
+}
+
+li {
+  float: left; /* alinha os itens da lista na horizontal */
+  
+}
+
+li a {
+  display: inline-block; /* faz os links da navbar preencherem todo o espaço disponível */
+  color: #e7c049; /* define a cor do texto da navbar */
+  text-align: center; /* alinha o texto dos links no centro da navbar */
+  padding: 15px 16px; /* define o preenchimento dos links na navbar */
+  text-decoration: none; /* remove o sublinhado dos links */
+   font-family: Stencil Std;/* estilo da fonte */
+  font-size: 25px; /* tamanho da fonte */
+  
+}
+
+
+li a:hover {
+  background-color: #111; /* define a cor de fundo dos links quando o mouse passa por cima */
+}
+
+
+.cor{
+	background-color:#17181f;
+	background-size: 680px 400px;;
+	
+	
+}
+
+
+.cor2 {
+	background-color:#17181f;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+  
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+	
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.imagem-animada {
+  position: absolute;
+  animation: mover-imagem 4s ;
+}
+
+@keyframes mover-imagem {
+  0% {
+    transform: translateX(200px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.imagem-animada2 {
+  position: absolute;
+  animation: mover-imagem 4s ;
+}
+
+@keyframes mover-imagem {
+  0% {
+    transform: translateX(200px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
